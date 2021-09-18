@@ -4,7 +4,7 @@
 int main()
 {
  int input=0;
- printf（"你好")
+ printf（"hello world")
  return 0;
  }
 .c源文件
