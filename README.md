@@ -1,17 +1,18 @@
 # hello-world
 初入门C语言
 #include<stdio.h>
-int main()
+int main();
 {
  int input=0;
- printf（"hello world")
+ printf（"hello world");
  return 0;
  }
  英文输入法
 .c源文件
 .h头文件
 基本框架
-int main()
+#include<stdio.h>
+int main();
 //主函数-程序的入口- 有且仅有一个
 {
  return 0；
@@ -33,3 +34,10 @@ main外称为全局变量
 文件包含：#include.<stdio.h>
 宏定义：#define.名称，内容
 区分判断编译和解释的方法是看需要执行的次数。编译只需要执行一次，之后再运行不需要重新编译。而解释执行的程序在每次运行时都要重新被解释。此题中程序每次运行都需要仿真器的帮助，所以应该属于解释执行
+#include<stdio.h>
+int
+main0();
+{
+printf("你好\n");
+return0;
+}
